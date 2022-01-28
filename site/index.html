@@ -7,30 +7,33 @@
     <title>Document</title>
    <link rel="stylesheet"   href="style.css" >
 </head>
-<body onload="helloalert()">
-    <script>
+<body class="main-body">
+    <!--script>
        function helloalert() {
            alert("Hello, My name is Badar this is just a testing file...");
        }
-    </script>
-    <div>
-        <img src="Photo.jpg" alt="Profile Photo">
-        <h1 id="top">Wellcome to my website :) Hye! It's me Badar Jamil... </h1> 
-        <h2>
-            If you wanted to know me more, like my achievements and my professional career.<br>
-            So stay tuned and just click on the nav menu...
-        </h2> 
+    </script-->
+    <div class="main-body" id="top">
+        <div class="menu-bar">
+            <ul>
+                <li id="linkmenu"><a href="#home" class="menu-text">ABOUT ME</a></li>
+                <li id="linkmenu"><a href="#contact" class="menu-text">Contact</a></li>
+                <li id="linkmenu"><a href="#about" class="menu-text">About Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <img class="logoimg" src="Photo.jpg" alt="Profile Photo">
+            <h1  class="header-color">Wellcome to my website :) Hye! It's me Badar Jamil... </h1> 
+            <h2>
+                If you wanted to know me more, like my achievements and my professional career.<br>
+                 So stay tuned and just click on the nav menu...
+            </h2>
+            <div class="box-ani">
+                 <h3 class="box-ani">Hello Mate!</h3>
+            </div> 
+        </div>
     </div>
-    <div>
-        <ul>
-            <li><a href="#home">ABOUT ME</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About Us</a></li>
-                <ul>
-                    <li>Products</li>
-                </ul>
-        </ul>
-    </div>
+   <div class="box-main-body">
     <section id="home">
         <h2>Home:</h2>
         <p>        
@@ -65,6 +68,9 @@
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen
         </p>
         </section>
-    <footer><a href="#top">Back to top</a></footer>
+    </div>   
+        <footer id="footer-style">
+            <a href="#top">Back to top</a>
+        </footer>
 </body>
 </html>
