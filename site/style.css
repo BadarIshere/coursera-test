@@ -6,17 +6,17 @@ footer{
 }
 ul{
 	display: inline-flex;
-	padding-left: 20px;	
+	padding-left: 10px;	
 }
 li{
-	margin-inline: 20px;
-	font-size: 30px;
+	margin-inline: 10px;
+	font-size: 20px;
 }
 body{
 	font-family: 'Courier New', Courier, monospace;
 	text-align: justify;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 5%;
+	padding-right: 5%;
 	background-color: black;
 }
 h1{
@@ -30,4 +30,9 @@ a{
 	align-content: center;
 	font-style: italic;
 	font-weight: 600;
+}
+img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
 }
