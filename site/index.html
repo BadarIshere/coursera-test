@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+          });
+        });
+    </script>
     <title>Document</title>
    <link rel="stylesheet"   href="style.css" >
 </head>
 <body class="main-body">
-    <!--script>
-       function helloalert() {
-           alert("Hello, My name is Badar this is just a testing file...");
-       }
-    </script-->
     <div class="main-body" id="top">
         <div class="menu-bar">
             <ul>
@@ -20,12 +24,16 @@
                 <li id="linkmenu"><a href="#contact" class="menu-text">Contact</a></li>
                 <li id="linkmenu"><a href="#about" class="menu-text">About Us</a></li>
             </ul>
+            <button type="button" onclick="document.getElementById('demo').innerHTML = Date()" class="button">
+                Date and Time.
+            </button>
+            <p id="demo" class="paragraph-style"></p>
         </div>
         <div>
             <img class="logoimg" src="Photo.jpg" alt="Profile Photo">
-            <h1  class="header-color">Wellcome to my website :) Hye! It's me Badar Jamil... </h1> 
+            <h1  class="header-color">Welcome to my website :) Hye! It's me Badar Jamil... </h1> 
             <h2>
-                If you wanted to know me more, like my achievements and my professional career.<br>
+                 I am 27 years old software engineer and currently living in <i>Germany</i><br>
                  So stay tuned and just click on the nav menu...
             </h2>
             <div class="box-ani">
@@ -36,7 +44,7 @@
    <div class="box-main-body">
     <section id="home">
         <h2>Home:</h2>
-        <p>        
+        <p class="paragraph-style">        
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen 
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen
@@ -48,7 +56,7 @@
     </section>
     <section id="contact">
         <h2>Contact Details</h2>
-        <p>
+        <p class="paragraph-style">
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen
@@ -59,7 +67,7 @@
         </section>
     <section id="about">
         <h2>About Us</h2>
-        <p>
+        <p class="paragraph-style">
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen. Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen
             Die E.M.P. Merchandising Handelsgesellschaft mbH, ein Unternehmen der Warner Music Group, ist einer der führenden E-Commerce-Player der Fashion- und Merchandise-Branche. Unser Hauptsortiment besteht aus Textilien, Bild- und Tonträgern sowie Schmuck, Accessoires und vielem mehr.Mehr als 600 Kollegen/-innen gehören zur EMP-Unternehmensgruppe. Am Standort Lingen befinden sich die Hauptverwaltung einschließlich unseres Customer Services, sowie unser Logistikzentrum, aus dem wir weltweit verschicken. Darüber hinaus verfügen wir über Tochterunternehmen und Niederlassungen in 18 europäischen Ländern. Zur Verstärkung unseres IT Webshops suchen wir zum nächstmöglichen Zeitpunkt einen
@@ -69,8 +77,25 @@
         </p>
         </section>
     </div>   
-        <footer id="footer-style">
-            <a href="#top">Back to top</a>
-        </footer>
+    <div class="container">
+        <p>Working in the box modelling.</p>
+    </div>
+    <div class="container">
+        <p>Working in the box modelling.</p>
+    </div>
+    <div class="container">
+        <p>Working in the box modelling.</p>
+    </div>
+    <div class="container">
+        <p>Working in the box modelling.</p>
+    </div>
+    <div> 
+        <h2>FAQ Section</h2>
+        <div id="flip"><h3 class="fab fa-html5">Testing the jquery library for FAQ's</h3></div>
+        <div id="panel">Hello these are the FAQ!</div>
+    </div>
+    <footer id="footer-style">
+        <a href="#top">Back to top</a>
+    </footer>
 </body>
 </html>

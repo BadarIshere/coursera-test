@@ -1,4 +1,4 @@
-p{
+.paragraph-style{
 	color: white;
 	word-wrap: break-word;
 	padding-left: 2%;
@@ -31,6 +31,7 @@ ul{
 }
 a:hover{
 	background-color: red;
+	color: chartreuse;
 }
 .main-body {
 	font-family: 'Courier New', Courier, monospace;
@@ -81,7 +82,6 @@ img:hover {
 	align-content: right;
 	text-align: right;
   }
-  
   @keyframes example {
 	from {background-color: red;}
 	to {background-color: yellow;}
@@ -98,8 +98,6 @@ img:hover {
 	height: auto;
 	background-color: royalblue;
 	float: right;
-	float: left;
-
 }
 #footer-style {
 	width: 100%;
@@ -107,4 +105,46 @@ img:hover {
 	background-color: white;
 	float: right;
 	float: left;
+}
+.container {
+		background-image: linear-gradient(royalblue, rgb(39, 163, 1));
+		width: 150px;
+		border: 15px solid white;
+		padding: 50px;
+		padding-left: 50px;
+		margin: 20px;
+		color: rgb(238, 238, 238);
+		font-weight: bold;
+		display: inline-flex;
+}
+i:hover {
+color: chartreuse;
+}
+#panel, #flip {
+	padding: 5px;
+	background-color: royalblue;
+	border: solid 1px #c3c3c3;
+	color: white;
+  }
+  #panel {
+	padding: 50px;
+	display: none;
+  }
+.button {
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-items: left;
+  align-content: left;
+}
+.button:hover{
+	background-color: royalblue;
 }
